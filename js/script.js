@@ -1,6 +1,6 @@
 // Array di oggeti del team
 
-const team = [
+const memberTeam = [
   {
     name: "Wayne Barnett",
     role: "Founder & CEO",
@@ -32,3 +32,11 @@ const team = [
     photo: "barbara-ramos-graphic-designer.jpg",
   },
 ];
+
+
+
+//  Stampo in console le informazioni di ciascun membro del team
+// utilizzo forEach()
+memberTeam.forEach(member => {
+    console.log(`Name: ${member.name}, Role: ${member.role}, Photo:${member.photo}`);
+});
