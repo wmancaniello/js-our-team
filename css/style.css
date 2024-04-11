@@ -1,0 +1,14 @@
+body {
+    background-color: #7FB3D5; /* Blu chiaro */
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.card,
+img {
+    border-radius: 40px; /* Modifica il valore per regolare l'arrotondamento */
+}
