@@ -61,3 +61,14 @@ memberTeam.forEach((member) => {
   // Stampa in pagina
   teamCard.innerHTML += printToHtml;
 });
+
+
+// SUPER BONUS
+// Creare un form tramite quale si potrà aggiungere membri del team
+
+// Clikc bottone:
+//  - prelevare dati dal form
+//  - creare oggetto del nuovo membro
+//  - aggungere il membro nell'array
+//  - stampa del nuovo membro in pagina
+//  - ripulire i campi del form
